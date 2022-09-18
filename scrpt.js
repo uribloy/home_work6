@@ -1,4 +1,4 @@
-let products =[[1,'חצוצרה',450],[2,'כינור',600],[3,'פסנתר',1200]];
+let products =[[1,'חצוצרה',350],[2,'כינור',600],[3,'פסנתר',1200]];
 
 let shoppingCart = [];
 function addToCart(Item) {
