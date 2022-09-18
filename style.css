@@ -1,0 +1,35 @@
+.music{
+    height: 80px;
+    background-color: rgb(85, 70, 45);
+    color: white;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.product{
+    margin: 10px;
+    padding: 5px;
+    background-color: lavender;
+}
+img{
+    margin: 15px;
+}
+.product button{
+    width: 50%;
+    background-color: rgb(65, 65, 255);
+    border-radius: 5px;
+}
+.productName{
+    font-weight: bolder;
+}
+.cart{
+    margin: 10px;
+    padding: 5px;
+    background-color:beige ;
+}
+.cart button{
+    float: left;
+    line-height: 1rem;
+    color: red;
+    border-radius: 5px;
+}
+    

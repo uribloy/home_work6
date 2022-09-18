@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <title>store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header music">
+        <span>
+            <h1>צליל וזמר</h1>
+        </span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col card product">
+                <img src="img/trumpet.jpg" alt="">
+                <h3 class="p_Name">
+                    חצוצרה
+                </h3>
+                <p class="p_Description">
+                    בלה בלה בלה קישקוש בלבוש
+                </p>
+                <p class="p_Price">
+                    350 ש"ח
+                </p>
+                <button onclick="addToCart(0)">הוסף לסל</button>
+            </div>
+            <div class="col card product">
+                <img src="img/violin.jpg" alt="">
+                <h3 class="p_Name">
+                    כינור
+                </h3>
+                <p class="p_Description">
+                    בלה בלה בלה קישקוש בלבוש
+                </p>
+                <p class="p_Price">
+                    600 ש"ח
+                </p>
+                <button onclick="addToCart(1)">הוסף לסל</button>
+            </div>
+            <div class="col card product">
+                <img src="img/piano.jpg" alt="">
+                <h3 class="p_Name">
+                    פסנתר
+                </h3>
+                <p class="p_Description">
+                    בלה בלה בלה קישקוש בלבוש
+                </p>
+                <p class="p_Price">
+                    1200 ש"ח
+                </p>
+                <button onclick="addToCart(2)">הוסף לסל</button>
+            </div>
+            <div class="col cart">
+                <h3>עגלת הקניות</h3>
+                <div id="shoppingCart">
+
+                </div>
+                <label id="checkout"></label>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer music">
+        <h3>
+            Don't stop the music
+        </h3>
+    </div>
+    <script type="text/javascript" src="scrpt.js"></script>
+</body>
+
+</html>
